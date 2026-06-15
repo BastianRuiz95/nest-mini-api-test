@@ -14,4 +14,9 @@ export class AppController {
   getHello2(): string {
     return this.appService.getHello2();
   }
+
+  @Get('es2')
+  getHello2(): string {
+    return "Hola a todos!";
+  }
 }
